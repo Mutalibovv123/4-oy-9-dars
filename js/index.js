@@ -57,14 +57,68 @@
 
 // 10-masala
 
-let massive = [12, 34, "salom" , "xayr", true, false];
-let value = prompt("Qiymatni kirting");
+// let massive = [12, 34, "salom", "xayr", true, false];
+// let value = prompt("Qiymatni kirting");
+// let has = false
 
-if (value === massive[0,1,2,3,4,5]) {
-    console.log("Bu qiymat mavjud"); 
-} else {
-    console.log("Bu qiymat mavjud emas");
+// for (let i = 0; i < massive.length; i++) {
+//     if (value === massive[i]) {
+//         has = true;
+//     }
+// }
+// if (has) {
+//     console.log("Mavjud");
+// } else console.log("Mavjud emas");
+
+// Forga oid masalalar
+
+// 1-masala
+
+
+// let numbers = [12, 34, 234, 233, 12, 1, 3, 4, 12, 10];
+
+// for (let i = 0; i < numbers.length; i++) {
+//     console.log(numbers[i]);
+// }
+
+// 2-masala
+
+// let fruits = ["apple" , "apricot" , "peach", "strawberry", "cherry"];
+// for (let i = 0; i < fruits.length; i++){
+//     console.log(fruits[i]);
+// }
+
+// 3-masala
+
+// let numbers = [12, 23, 34, 23, 12, 56, 23, 86, 2, 45,];
+// for (let i = 0 ; i < numbers.length; i++) {
+//     if (numbers[i] % 2 == 0) {
+//         console.log(numbers[i]);
+//     }
+// }
+
+// 4-masala
+
+// let numbers = [123,145,125,632,134,1334,543,12,134,];
+// for(let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] % 2 == 1 ) {
+//         console.log(numbers[i]);
+//     }
+// }
+
+// 5-masala
+
+let numbers = [-2344, -5322, 234, 23, 45, -46, -89, -900, 123, 987];
+for (let i = 0; i < numbers.length; i++) {
+      if (numbers[i] > 0) {
+        console.log(numbers[i]);
+      }
 }
+
+
+
+
+
 
 
 
