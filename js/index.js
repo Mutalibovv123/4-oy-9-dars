@@ -108,12 +108,96 @@
 
 // 5-masala
 
-let numbers = [-2344, -5322, 234, 23, 45, -46, -89, -900, 123, 987];
-for (let i = 0; i < numbers.length; i++) {
-      if (numbers[i] > 0) {
-        console.log(numbers[i]);
-      }
+// let numbers = [-2344, -5322, 234, 23, 45, -46, -89, -900, 123, 987];
+// for (let i = 0; i < numbers.length; i++) {
+//       if (numbers[i] > 0) {
+//         console.log(numbers[i]);
+//       }
+// }
+
+// 6-masala
+
+// let numbers = [1,2,3,4,5,6,7,8,9,10];
+// for (let i = numbers.length; i > 0 ; i-- ) {
+//     console.log(numbers[i]);
+// }
+
+// 7-masala
+
+// let numbers = [1,4,5,6,7,6,4,3,2,3,34,];
+// let sum = 0;
+
+// for (let i = 0 ; i < numbers.length; i++ ) {
+//    sum = sum += numbers[i];
+// }
+// console.log(sum);
+
+// 8-masala
+
+// let numbers = [2,4,6,8] ;
+// for (let i = 0 ; i < numbers.length ; i++) {
+//      numbers[i] = numbers[i] ** 2;
+//      console.log(numbers[i]);
+// }
+
+// 9-masala
+
+// let massiv = [10, 5, 20, 35, 15];
+// let katta = massiv[0]; 
+
+// for (let i = 1; i < massiv.length; i++) {
+//   if (massiv[i] > katta) {
+//     katta = massiv[i];
+//   }
+// }
+// console.log(katta);
+
+// 10-masala
+
+// let massiv = [10, 5, 20, 35, 15];
+// let kichik = massiv[0]; 
+
+// for (let i = 1; i < massiv.length; i++) {
+//   if (massiv[i] < kichik) {
+//     kichik = massiv[i];
+//   }
+// }
+// console.log(kichik);
+
+// 11-masala
+
+// let manfiy = [-332,-553,43,-344,65,-77];
+// for (let i = 0 ; i < manfiy.length; i++) {
+//     if (manfiy[i] < 0) {
+//         console.log(manfiy[i]);
+//     }
+// }
+
+// 12-masala
+
+let numbers = [12,-34,56,-1,345,-34];
+let sum = 0;
+for(let i = 0 ; i < numbers.length; i++) {
+    if (numbers[i] > 0 ) {
+        sum = sum + numbers[i]
+    }
 }
+console.log(sum);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
