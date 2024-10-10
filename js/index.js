@@ -175,14 +175,36 @@
 
 // 12-masala
 
-let numbers = [12,-34,56,-1,345,-34];
-let sum = 0;
-for(let i = 0 ; i < numbers.length; i++) {
-    if (numbers[i] > 0 ) {
-        sum = sum + numbers[i]
-    }
+// let numbers = [12,-34,56,-1,345,-34];
+// let sum = 0;
+// for(let i = 0 ; i < numbers.length; i++) {
+//     if (numbers[i] > 0 ) {
+//         sum = sum + numbers[i]
+//     }
+// }
+// console.log(sum);
+
+// 13-masala
+
+// let index = [122,445,677,323];
+// for(let i = 0; i < index.length; i++) {
+//          console.log(i , index[i] );
+// }
+
+// 14-masala
+
+// let numbers = [1,2,3,4,5,6,7];
+// for (let i = numbers.length - 1; i >= 0 ; i++) {
+//     console.log(i, numbers[i]);
+// }
+
+// 15-masala
+
+let second = [1,2,5,6];
+for (let i = 1; i < second.length; i++) {
+    console.log(second[i]);
 }
-console.log(sum);
+
 
 
 
